@@ -7,10 +7,20 @@
     --gray-700: #29292e;
     --gray-800: #202024;
     --gray-900: #121214;
-  
+
+    --green-300: #00B37E;
     --green-500: #00875f;
-  }
-//criando variáveis para as cores, assim se um dia for necessário altera-lás, somente vai ser alterado na variável
+
+    --red-500: #F75A68;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
+/* criando variáveis para as cores,assim se um dia for necessário altera-lás,somente vai ser alterado na variável  */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,11 +32,16 @@ body {
     color: var(--gray-300);
     -webkit-font-smoothing: antialiased;
 }
-//color é a cor do texto
 
-body, input, textarea, button {
+/* color é a cor do texto */
+
+body,
+input,
+textarea,
+button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
-//cada 1 rem é 16px, rem é uma medida para acessibilidade
+
+/* cada 1 rem é 16px, rem é uma medida para acessibilidade */
