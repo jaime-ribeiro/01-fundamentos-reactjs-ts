@@ -9,7 +9,13 @@
     gap: 2rem;
     align-items: flex-start;
 }
-/* fr é a medida utilizada pra ele completar o resto da tela
-gap é o espaço criado entre a sidebar e o post
-obs: o margin auto centraliza
- */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

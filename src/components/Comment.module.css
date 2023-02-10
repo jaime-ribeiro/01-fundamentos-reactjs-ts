@@ -1,13 +1,7 @@
 .comment {
     margin-top: 1.5rem;
     display: flex;
-}
-
-.comment>img {
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: 8px;
-
+    gap: 1rem;
 }
 
 .commentContent {
